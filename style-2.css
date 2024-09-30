@@ -1,0 +1,107 @@
+@media(max-width:600px){
+  .container{
+    padding: 0 7px;
+  }
+  .tab-titles{
+    display: none;
+    flex-direction: column;
+    background-color: #90e507;
+    top: 50px;
+    right: 0;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width: 180px;
+  }
+  .tab-titles.active{
+    display: flex;
+    margin-top: 2.25em;
+  }
+  .tab-titles p{
+    padding: 10px 0px;
+    color: #fff;
+  }
+  .menu-toggle {
+    display: block;
+    cursor: pointer;
+  }
+
+  .menu-toggle:active .menu-links {
+    display: flex;
+  }
+
+  .menu-toggle.active span:nth-child(1) {
+    transform: rotate(45deg)translate(5px, 5px)
+  }
+
+  .menu-toggle.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .menu-toggle.active span:nth-child(3) {
+    transform: rotate(-45deg)translate(5px, -5px)
+  }
+  .maths .container{
+    padding: 10px 7px;
+    flex-direction: column;
+  }
+  .intermediate .container{
+    padding: 34px 7px;
+  }
+  
+  .second1{
+   /* display: grid;
+   grid-template-columns: repeat(2,1fr);
+   gap: 50px; */
+   flex-direction: column;
+   gap: 20px;
+  }
+  .contact-info .container{
+    padding: 0 7px;
+    flex-direction: column;
+  }
+  .seventh{
+    display: flex;
+    flex-direction: column;
+  }
+  .eight{
+    padding-top: 30px;
+  }
+  .eight1 input{
+    width: 270px;
+  }
+  .eight2 textarea{
+    width: 550px;
+  }
+  .physics .container{
+    padding: 10px 7px;
+  }
+  .fifth{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .chemistry .container{
+    padding: 15px 7px;
+    flex-direction: column;
+  }
+  .third{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+  .epistle{
+    font-size: 18px;
+  }
+  .problem .container{
+    flex-direction: column;
+    gap: 20px;
+  }
+  .agric .container{
+    flex-direction: column;
+  }
+  .work img{
+    width: 350px;
+  }
+
+}
